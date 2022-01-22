@@ -1,14 +1,20 @@
 body {
     background-color: #f7f7f7;
 }
+.Ellipse {
+    height: 35px;
+    width: 35px;
+    margin-top: -15px;
+    margin-left: 40px;
+}
 .topul-right {
     position: fixed;
     width: 100%;
     margin-top: 30px;
-    margin-left: 50%;
 }
 .topul-right li {
     display: inline-block;
+    float: right;
 }
 .topul-right li a {
     color: #ffffff;
@@ -33,13 +39,6 @@ h1 {
     position: absolute;
     top: 700px;
     left: 180px;
-}
-.Ellipse {
-    height: 35px;
-    width: 35px;
-    position: absolute;
-    top: 20px;
-    left: 30px;
 }
 .lol {
     margin: 90px 180px;
@@ -151,6 +150,27 @@ h3 {
 .projectx p, a {
     margin-left: 30px;
 }
+.projectx article p {
+    font-size: 14px;
+    color: #262626;
+    line-height: 2;
+    margin-bottom: 15px;
+}
+.websiteapp {
+    font-size: 11px;
+    color: #959595;
+}
+.projectx article a {
+    font-size: 11px;
+    font-weight: bold;
+    color: #262626;
+}
+.arrow {
+    vertical-align: top;
+    height: 22px;
+    width: 22px;
+    margin-right: 10px;
+}
 .button {
     height: 48px;
     width: 176px;
@@ -168,6 +188,10 @@ h3 {
     margin-right: 15px;
     padding-right: 15px;
     border-right: 1px solid #ffffff;
+    vertical-align: text-bottom;
+}
+.container {
+    display: flex;
 }
 .container1 {
     height: 422px;
@@ -204,17 +228,28 @@ h3 {
 }
 .formdiv h5 {
     margin-bottom: 60px;
+    font-size: 12px;
+    font-weight: bold;
 }
 .formdiv p {
     margin-bottom: 30px;
+    font-size: 14px;
+}
+form {
+    display: inline-block;
+}
+label {
+    font-size: 11px;
 }
 input {
     height: 37px;
     width: 250px;
     border: 1px solid #0865de;
+    padding-left: 20px;
+    margin-right: -10px;
 }
 .realbutton {
-    height: 37px;
+    height: 38px;
     width: 45px;
     font-size: 11px;
     color: #ffffff;
@@ -227,13 +262,29 @@ input {
     border-bottom-right-radius: 5px;
 }
 .lastonestanding {
-    height: 120px;
+    height: 150px;
     width: 100%;
     padding-left: 90px;
-    padding-top: 50px;
+    padding-top: 60px;
+    padding-bottom: 40px;
     background-color: #f7f7f7;
+}
+.lastonestanding p {
+    font-size: 11px;
+    line-height: 2;
+    color: #959595;
 }
 .EllipseB {
     height: 35px;
     width: 35px;
+    margin-right: 34px;
+    vertical-align: sub;
+}
+.lastonestanding p {
+    display: inline-block;
+}
+.floatright {
+    margin-top: 20px;
+    margin-right: 90px;
+    float: right;
 }
